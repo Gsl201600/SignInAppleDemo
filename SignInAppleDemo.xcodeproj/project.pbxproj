@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A618A4A230A53330063121C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A618A49230A53330063121C /* AppDelegate.m */; };
+		3A618A4D230A53330063121C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A618A4C230A53330063121C /* SceneDelegate.m */; };
+		3A618A50230A53330063121C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A618A4F230A53330063121C /* ViewController.m */; };
+		3A618A53230A53330063121C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A618A51230A53330063121C /* Main.storyboard */; };
+		3A618A55230A53340063121C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A618A54230A53340063121C /* Assets.xcassets */; };
+		3A618A58230A53340063121C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A618A56230A53340063121C /* LaunchScreen.storyboard */; };
+		3A618A5B230A53340063121C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A618A5A230A53340063121C /* main.m */; };
+		3A618A65230A53340063121C /* SignInAppleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A618A64230A53340063121C /* SignInAppleDemoUITests.m */; };
+		3AF0B4C0230AB1680070F9B2 /* YostarKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF0B4BF230AB1680070F9B2 /* YostarKeychain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A618A61230A53340063121C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A618A3D230A53330063121C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A618A44230A53330063121C;
+			remoteInfo = SignInAppleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A618A45230A53330063121C /* SignInAppleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInAppleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A618A48230A53330063121C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A618A49230A53330063121C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A618A4B230A53330063121C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3A618A4C230A53330063121C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3A618A4E230A53330063121C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A618A4F230A53330063121C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A618A52230A53330063121C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A618A54230A53340063121C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A618A57230A53340063121C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A618A59230A53340063121C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A618A5A230A53340063121C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A618A60230A53340063121C /* SignInAppleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInAppleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A618A64230A53340063121C /* SignInAppleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInAppleDemoUITests.m; sourceTree = "<group>"; };
+		3A618A66230A53340063121C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF0B4BD230A78440070F9B2 /* SignInAppleDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignInAppleDemo.entitlements; sourceTree = "<group>"; };
+		3AF0B4BE230AB1680070F9B2 /* YostarKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YostarKeychain.h; sourceTree = "<group>"; };
+		3AF0B4BF230AB1680070F9B2 /* YostarKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YostarKeychain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A618A42230A53330063121C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A618A5D230A53340063121C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A618A3C230A53330063121C = {
+			isa = PBXGroup;
+			children = (
+				3A618A47230A53330063121C /* SignInAppleDemo */,
+				3A618A63230A53340063121C /* SignInAppleDemoUITests */,
+				3A618A46230A53330063121C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A618A46230A53330063121C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A618A45230A53330063121C /* SignInAppleDemo.app */,
+				3A618A60230A53340063121C /* SignInAppleDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A618A47230A53330063121C /* SignInAppleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3AF0B4BD230A78440070F9B2 /* SignInAppleDemo.entitlements */,
+				3A618A48230A53330063121C /* AppDelegate.h */,
+				3A618A49230A53330063121C /* AppDelegate.m */,
+				3A618A4B230A53330063121C /* SceneDelegate.h */,
+				3A618A4C230A53330063121C /* SceneDelegate.m */,
+				3A618A4E230A53330063121C /* ViewController.h */,
+				3A618A4F230A53330063121C /* ViewController.m */,
+				3AF0B4BE230AB1680070F9B2 /* YostarKeychain.h */,
+				3AF0B4BF230AB1680070F9B2 /* YostarKeychain.m */,
+				3A618A51230A53330063121C /* Main.storyboard */,
+				3A618A54230A53340063121C /* Assets.xcassets */,
+				3A618A56230A53340063121C /* LaunchScreen.storyboard */,
+				3A618A59230A53340063121C /* Info.plist */,
+				3A618A5A230A53340063121C /* main.m */,
+			);
+			path = SignInAppleDemo;
+			sourceTree = "<group>";
+		};
+		3A618A63230A53340063121C /* SignInAppleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A618A64230A53340063121C /* SignInAppleDemoUITests.m */,
+				3A618A66230A53340063121C /* Info.plist */,
+			);
+			path = SignInAppleDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A618A44230A53330063121C /* SignInAppleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A618A69230A53340063121C /* Build configuration list for PBXNativeTarget "SignInAppleDemo" */;
+			buildPhases = (
+				3A618A41230A53330063121C /* Sources */,
+				3A618A42230A53330063121C /* Frameworks */,
+				3A618A43230A53330063121C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignInAppleDemo;
+			productName = SignInAppleDemo;
+			productReference = 3A618A45230A53330063121C /* SignInAppleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A618A5F230A53340063121C /* SignInAppleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A618A6C230A53340063121C /* Build configuration list for PBXNativeTarget "SignInAppleDemoUITests" */;
+			buildPhases = (
+				3A618A5C230A53340063121C /* Sources */,
+				3A618A5D230A53340063121C /* Frameworks */,
+				3A618A5E230A53340063121C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A618A62230A53340063121C /* PBXTargetDependency */,
+			);
+			name = SignInAppleDemoUITests;
+			productName = SignInAppleDemoUITests;
+			productReference = 3A618A60230A53340063121C /* SignInAppleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A618A3D230A53330063121C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Yostar;
+				TargetAttributes = {
+					3A618A44230A53330063121C = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					3A618A5F230A53340063121C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 3A618A44230A53330063121C;
+					};
+				};
+			};
+			buildConfigurationList = 3A618A40230A53330063121C /* Build configuration list for PBXProject "SignInAppleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A618A3C230A53330063121C;
+			productRefGroup = 3A618A46230A53330063121C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A618A44230A53330063121C /* SignInAppleDemo */,
+				3A618A5F230A53340063121C /* SignInAppleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A618A43230A53330063121C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A618A58230A53340063121C /* LaunchScreen.storyboard in Resources */,
+				3A618A55230A53340063121C /* Assets.xcassets in Resources */,
+				3A618A53230A53330063121C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A618A5E230A53340063121C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A618A41230A53330063121C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A618A50230A53330063121C /* ViewController.m in Sources */,
+				3A618A4A230A53330063121C /* AppDelegate.m in Sources */,
+				3A618A5B230A53340063121C /* main.m in Sources */,
+				3A618A4D230A53330063121C /* SceneDelegate.m in Sources */,
+				3AF0B4C0230AB1680070F9B2 /* YostarKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A618A5C230A53340063121C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A618A65230A53340063121C /* SignInAppleDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A618A62230A53340063121C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A618A44230A53330063121C /* SignInAppleDemo */;
+			targetProxy = 3A618A61230A53340063121C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A618A51230A53330063121C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A618A52230A53330063121C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A618A56230A53340063121C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A618A57230A53340063121C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A618A67230A53340063121C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A618A68230A53340063121C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A618A6A230A53340063121C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignInAppleDemo/SignInAppleDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 42D597HQZL;
+				INFOPLIST_FILE = SignInAppleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.altest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ALtest_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A618A6B230A53340063121C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SignInAppleDemo/SignInAppleDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 42D597HQZL;
+				INFOPLIST_FILE = SignInAppleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.altest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ALtest_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A618A6D230A53340063121C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignInAppleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yostar.www.SignInAppleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignInAppleDemo;
+			};
+			name = Debug;
+		};
+		3A618A6E230A53340063121C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SignInAppleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yostar.www.SignInAppleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignInAppleDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A618A40230A53330063121C /* Build configuration list for PBXProject "SignInAppleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A618A67230A53340063121C /* Debug */,
+				3A618A68230A53340063121C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A618A69230A53340063121C /* Build configuration list for PBXNativeTarget "SignInAppleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A618A6A230A53340063121C /* Debug */,
+				3A618A6B230A53340063121C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A618A6C230A53340063121C /* Build configuration list for PBXNativeTarget "SignInAppleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A618A6D230A53340063121C /* Debug */,
+				3A618A6E230A53340063121C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A618A3D230A53330063121C /* Project object */;
+}
