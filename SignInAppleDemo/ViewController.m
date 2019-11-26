@@ -51,18 +51,21 @@
 
 // 自己用UIButton按钮调用处理授权的方法
 - (void)didCustomBtnClicked{
+    // 封装Sign In with Apple 登录工具类，使用这个类时要把类对象设置为全局变量，或者直接把这个工具类做成单例，如果使用局部变量，和IAP支付工具类一样，会导致苹果回调不会执行
     self.signInApple = [[SignInApple alloc] init];
     [self.signInApple handleAuthorizationAppleIDButtonPress];
 }
 
 // 使用系统提供的按钮调用处理授权的方法
 - (void)didAppleIDBtnClicked{
+    // 封装Sign In with Apple 登录工具类，使用这个类时要把类对象设置为全局变量，或者直接把这个工具类做成单例，如果使用局部变量，和IAP支付工具类一样，会导致苹果回调不会执行
     self.signInApple = [[SignInApple alloc] init];
     [self.signInApple handleAuthorizationAppleIDButtonPress];
 }
 
 // 如果存在iCloud Keychain 凭证或者AppleID 凭证提示用户
 - (void)perfomExistingAccount{
+    // 封装Sign In with Apple 登录工具类，使用这个类时要把类对象设置为全局变量，或者直接把这个工具类做成单例，如果使用局部变量，和IAP支付工具类一样，会导致苹果回调不会执行
     self.signInApple = [[SignInApple alloc] init];
     [self.signInApple perfomExistingAccountSetupFlows];
 }
