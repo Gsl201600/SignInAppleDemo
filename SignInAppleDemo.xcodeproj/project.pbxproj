@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A569693238BCBDB00D1CBA5 /* SignInApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A569692238BCBDB00D1CBA5 /* SignInApple.m */; };
 		3A618A4A230A53330063121C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A618A49230A53330063121C /* AppDelegate.m */; };
 		3A618A4D230A53330063121C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A618A4C230A53330063121C /* SceneDelegate.m */; };
 		3A618A50230A53330063121C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A618A4F230A53330063121C /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A569691238BCBDB00D1CBA5 /* SignInApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInApple.h; sourceTree = "<group>"; };
+		3A569692238BCBDB00D1CBA5 /* SignInApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInApple.m; sourceTree = "<group>"; };
 		3A618A45230A53330063121C /* SignInAppleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInAppleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A618A48230A53330063121C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A618A49230A53330063121C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				3A618A4C230A53330063121C /* SceneDelegate.m */,
 				3A618A4E230A53330063121C /* ViewController.h */,
 				3A618A4F230A53330063121C /* ViewController.m */,
+				3A569691238BCBDB00D1CBA5 /* SignInApple.h */,
+				3A569692238BCBDB00D1CBA5 /* SignInApple.m */,
 				3AF0B4BE230AB1680070F9B2 /* YostarKeychain.h */,
 				3AF0B4BF230AB1680070F9B2 /* YostarKeychain.m */,
 				3A618A51230A53330063121C /* Main.storyboard */,
@@ -217,6 +222,7 @@
 			files = (
 				3A618A50230A53330063121C /* ViewController.m in Sources */,
 				3A618A4A230A53330063121C /* AppDelegate.m in Sources */,
+				3A569693238BCBDB00D1CBA5 /* SignInApple.m in Sources */,
 				3A618A5B230A53340063121C /* main.m in Sources */,
 				3A618A4D230A53330063121C /* SceneDelegate.m in Sources */,
 				3AF0B4C0230AB1680070F9B2 /* YostarKeychain.m in Sources */,
